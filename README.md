@@ -20,12 +20,20 @@ affiche le prochain rendez-vous sur la page d'accueil et propose un bouton « Aj
 Pour utiliser une vraie affiche à la place de l'illustration générée, déposez l'image dans `assets/img/` et indiquez
 `image: "assets/img/mon-affiche.jpg"`.
 
+## Mettre à jour la galerie photo
+
+Déposez la photo (idéalement 1600 px de large maximum) dans `assets/img/photos/`, puis ajoutez une ligne dans
+**`assets/js/photos.js`** avec sa légende et sa catégorie (`concerts`, `opera`, `repetitions`, `convivialite`).
+
 ## Structure
 
 ```
 index.html            page unique (accueil, chœur, agenda, histoire, répertoire, recrutement, contact)
 assets/css/style.css  styles
 assets/js/events.js   données de l'agenda (à éditer)
+assets/js/photos.js   galerie photo (à éditer)
+assets/img/photos/    photos du chœur (issues de choeursdegivors.fr)
+assets/audio/         enregistrements du chœur (mp3)
 assets/js/script.js   rendu de l'agenda, menu, animations
 assets/img/           favicon et images
 ```
@@ -38,6 +46,6 @@ Avec GitHub Pages : *Settings → Pages → Deploy from branch*.
 ## À vérifier avec l'association
 
 Les informations ont été rassemblées à partir de sources publiques ; certaines divergent et sont à confirmer :
-- horaires de répétition (20h–22h30 sur le site actuel, 20h30–22h sur la page recrutement) ;
-- lieu exact du récital du 7 juin 2026 (Mornant ou Givors) ;
-- numéro de téléphone de contact.
+- date exacte du concert de Ternay (juin 2026) ;
+- orthographe des noms du bureau (écrits en majuscules sur le site actuel) ;
+- la photo « pierre-vallin-direction.jpg » représente bien Pierre Vallin.
