@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Les Chœurs de Givors</title>
+  <meta name="description" content="Les Chœurs de Givors : chorale amateur fondée en 1975 au conservatoire de Givors. Concerts, opéra, répertoire de la Renaissance au contemporain. Rejoignez-nous !">
+  <meta property="og:title" content="Les Chœurs de Givors">
+  <meta property="og:description" content="Chanter ensemble depuis 1975 — concerts, opéra et répertoire éclectique.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <a href="#accueil" class="nav__brand" aria-label="Accueil">
+      <svg class="nav__logo" viewBox="0 0 40 40" aria-hidden="true"><use href="#logo"/></svg>
+      <span>Les Chœurs<br><strong>de Givors</strong></span>
+    </a>
+    <button class="nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="menu">
+      <a href="#choeur">Le chœur</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#histoire">Histoire</a>
+      <a href="#repertoire">Répertoire</a>
+      <a href="#rejoindre">Nous rejoindre</a>
+      <a href="#contact" class="btn btn--small">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="accueil">
+    <div class="hero__bg" aria-hidden="true">
+      <svg class="hero__staff" viewBox="0 0 1440 400" preserveAspectRatio="none">
+        <g fill="none" stroke="currentColor" stroke-width="1.5">
+          <path class="wave w1" d="M0 200 C 240 120, 480 280, 720 200 S 1200 120, 1440 200"/>
+          <path class="wave w2" d="M0 220 C 240 140, 480 300, 720 220 S 1200 140, 1440 220"/>
+          <path class="wave w3" d="M0 240 C 240 160, 480 320, 720 240 S 1200 160, 1440 240"/>
+          <path class="wave w4" d="M0 260 C 240 180, 480 340, 720 260 S 1200 180, 1440 260"/>
+          <path class="wave w5" d="M0 280 C 240 200, 480 360, 720 280 S 1200 200, 1440 280"/>
+        </g>
+      </svg>
+      <span class="note n1">♪</span><span class="note n2">♫</span><span class="note n3">♩</span>
+      <span class="note n4">♬</span><span class="note n5">♪</span><span class="note n6">♫</span>
+      <div class="hero__glow"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow">Chorale amateur · Givors · depuis 1975</p>
+      <h1 class="hero__title">Les Chœurs<br><em>de Givors</em></h1>
+      <p class="hero__lead">Une trentaine de voix, cinquante ans de passion&nbsp;: de la Renaissance à l'opéra contemporain, nous chantons ensemble pour partager la musique.</p>
+      <div class="hero__cta">
+        <a href="#agenda" class="btn">Voir l'agenda</a>
+        <a href="#rejoindre" class="btn btn--ghost">Venir chanter avec nous</a>
+      </div>
+    </div>
+
+    <aside class="next" id="next-event" aria-live="polite">
+      <!-- rempli par script.js -->
+    </aside>
+
+    <a href="#choeur" class="hero__scroll" aria-label="Défiler vers le bas"><span></span></a>
+  </section>
+
+  <!-- ============ LE CHOEUR ============ -->
+  <section class="section" id="choeur">
+    <div class="container split">
+      <div class="split__text reveal">
+        <p class="eyebrow">Le chœur</p>
+        <h2>Chanter ensemble,<br>quel que soit son niveau</h2>
+        <p>Association loi 1901 fondée en 1975, les Chœurs de Givors ont pour vocation de <strong>promouvoir la culture musicale par le chant choral</strong>. Nous accueillons toutes celles et ceux qui ont envie de chanter, débutants comme chanteurs confirmés.</p>
+        <p>Installé au <strong>conservatoire de musique et de danse de Givors</strong>, le chœur se produit régulièrement en concert, souvent avec orchestre, dans la région lyonnaise et la vallée du Rhône.</p>
+        <p>En 2025, pour notre cinquantenaire, nous avons créé l'opéra <em>Gracchus Babeuf ou la Conjuration des Égaux</em>, composé par notre fondateur Pierre Vallin.</p>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat stat--gold"><span class="stat__num" data-count="1975">1975</span><span class="stat__label">année de fondation</span></div>
+        <div class="stat stat--wine"><span class="stat__num" data-count="50">50</span><span class="stat__label">ans de chant choral</span></div>
+        <div class="stat stat--teal"><span class="stat__num" data-count="30" data-prefix="~">~30</span><span class="stat__label">choristes amateurs</span></div>
+        <div class="stat stat--night"><span class="stat__num">4</span><span class="stat__label">pupitres&nbsp;: sopranos, altos, ténors, basses</span></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="voices reveal" aria-label="Les quatre pupitres">
+        <div class="voice"><svg viewBox="0 0 100 60" aria-hidden="true"><path d="M0 40 Q25 5 50 30 T100 10"/></svg><h3>Sopranos</h3><p>Les voix aiguës qui portent la mélodie.</p></div>
+        <div class="voice"><svg viewBox="0 0 100 60" aria-hidden="true"><path d="M0 35 Q25 15 50 35 T100 25"/></svg><h3>Altos</h3><p>La chaleur et la richesse des harmonies.</p></div>
+        <div class="voice"><svg viewBox="0 0 100 60" aria-hidden="true"><path d="M0 30 Q25 45 50 30 T100 38"/></svg><h3>Ténors</h3><p>L'éclat des voix d'hommes aiguës.</p></div>
+        <div class="voice"><svg viewBox="0 0 100 60" aria-hidden="true"><path d="M0 45 Q25 55 50 45 T100 52"/></svg><h3>Basses</h3><p>Les fondations graves de l'édifice.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AGENDA ============ -->
+  <section class="section section--dark" id="agenda">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Agenda</p>
+        <h2>Nos événements</h2>
+        <p>Concerts, opéra, récitals : retrouvez toutes nos dates.</p>
+      </div>
+
+      <div class="tabs reveal" role="tablist" aria-label="Filtrer les événements">
+        <button role="tab" class="tab is-active" data-filter="upcoming" aria-selected="true">À venir</button>
+        <button role="tab" class="tab" data-filter="past" aria-selected="false">Passés</button>
+        <button role="tab" class="tab" data-filter="all" aria-selected="false">Tous</button>
+      </div>
+
+      <div class="events" id="events"><!-- rempli par script.js --></div>
+
+      <p class="events__more reveal">
+        Les dernières nouvelles sont aussi publiées sur
+        <a href="https://www.facebook.com/choeursdegivors/" target="_blank" rel="noopener">notre page Facebook</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ HISTOIRE ============ -->
+  <section class="section" id="histoire">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Histoire</p>
+        <h2>Cinquante ans en musique</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item reveal">
+          <span class="timeline__year">1975</span>
+          <div class="timeline__card">
+            <h3>Naissance du chœur</h3>
+            <p>Pierre Vallin fonde les Chœurs de Givors. Il dirigera ensuite le conservatoire de Givors de 1979 à 2005.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">1979 – 2005</span>
+          <div class="timeline__card">
+            <h3>Au cœur du conservatoire</h3>
+            <p>Le chœur grandit avec le conservatoire de musique et de danse de Givors, qui reste aujourd'hui sa maison.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">Des décennies de concerts</span>
+          <div class="timeline__card">
+            <h3>Les grandes œuvres</h3>
+            <p>Oratorios et messes avec orchestre, dont le <em>Dixit Dominus</em>, mais aussi chanson française et musiques du monde.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">2025</span>
+          <div class="timeline__card timeline__card--highlight">
+            <h3>Le cinquantenaire</h3>
+            <p>Une tournée « Best of » à Communay, Mornant, Ampuis et Givors, puis la création de l'opéra <em>Gracchus Babeuf</em> au Théâtre de Givors.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">Aujourd'hui</span>
+          <div class="timeline__card">
+            <h3>Sous la direction de Sébastien Vidal</h3>
+            <p>Le chœur continue de chanter et d'accueillir de nouvelles voix, avec toujours autant d'envie.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ REPERTOIRE ============ -->
+  <section class="section section--cream" id="repertoire">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Répertoire</p>
+        <h2>Un répertoire éclectique</h2>
+        <p>Cinq siècles de musique vocale, du motet de la Renaissance à la création contemporaine.</p>
+      </div>
+
+      <div class="eras">
+        <article class="era reveal" style="--c: var(--gold)">
+          <span class="era__icon" aria-hidden="true">𝄞</span>
+          <h3>Renaissance</h3>
+          <p>Polyphonies, motets et madrigaux.</p>
+        </article>
+        <article class="era reveal" style="--c: var(--wine)">
+          <span class="era__icon" aria-hidden="true">♫</span>
+          <h3>Baroque</h3>
+          <p>Grandes œuvres sacrées avec orchestre.</p>
+        </article>
+        <article class="era reveal" style="--c: var(--teal)">
+          <span class="era__icon" aria-hidden="true">♬</span>
+          <h3>Romantique</h3>
+          <p>Le souffle et le lyrisme du XIX<sup>e</sup> siècle.</p>
+        </article>
+        <article class="era reveal" style="--c: var(--coral)">
+          <span class="era__icon" aria-hidden="true">♪</span>
+          <h3>Chanson française</h3>
+          <p>Les mélodies qui nous rassemblent.</p>
+        </article>
+        <article class="era reveal" style="--c: var(--sage)">
+          <span class="era__icon" aria-hidden="true">♩</span>
+          <h3>Traditionnel</h3>
+          <p>Chants populaires d'ici et d'ailleurs.</p>
+        </article>
+        <article class="era reveal" style="--c: var(--violet)">
+          <span class="era__icon" aria-hidden="true">𝄢</span>
+          <h3>Contemporain</h3>
+          <p>Créations, jusqu'à l'opéra <em>Gracchus Babeuf</em>.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NOUS REJOINDRE ============ -->
+  <section class="section join" id="rejoindre">
+    <div class="container split">
+      <div class="split__text reveal">
+        <p class="eyebrow">Nous rejoindre</p>
+        <h2>Envie de chanter&nbsp;?<br>Venez essayer&nbsp;!</h2>
+        <p>Le chœur recrute dans tous les pupitres. Pas besoin de savoir lire la musique : l'envie suffit.</p>
+        <ul class="checks">
+          <li>Être âgé(e) de plus de 18 ans</li>
+          <li>Une courte audition avec le chef de chœur pour trouver votre pupitre</li>
+          <li>Un livret d'accueil remis à chaque nouveau choriste</li>
+          <li>Une journée de travail environ tous les deux mois</li>
+        </ul>
+        <a href="#contact" class="btn">Nous contacter</a>
+      </div>
+
+      <div class="rehearsal reveal">
+        <div class="rehearsal__day">
+          <span class="rehearsal__label">Répétitions</span>
+          <span class="rehearsal__big">Mercredi</span>
+          <span class="rehearsal__time">20h – 22h30</span>
+          <span class="rehearsal__note">hors vacances scolaires</span>
+        </div>
+        <dl class="rehearsal__info">
+          <div><dt>Lieu</dt><dd>Conservatoire de musique et de danse<br>3 rue Malik Oussekine, 69700 Givors</dd></div>
+          <div><dt>Direction</dt><dd>Sébastien Vidal</dd></div>
+          <div><dt>Adhésion</dt><dd><a href="https://www.helloasso.com/associations/choeurs-de-givors" target="_blank" rel="noopener">Sur HelloAsso</a></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--dark" id="contact">
+    <div class="container split">
+      <div class="split__text reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Écrivez-nous</h2>
+        <ul class="contact">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z M3 5l9 8 9-8"/></svg>
+            <a href="mailto:leschoeursdegivors@gmail.com">leschoeursdegivors@gmail.com</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 005 5L15 12l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></svg>
+            <a href="tel:+33674215090">06 74 21 50 90</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-7 7-12a7 7 0 10-14 0c0 5 7 12 7 12z M12 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"/></svg>
+            <span>Conservatoire de Givors<br>3 rue Malik Oussekine, 69700 Givors</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 00-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg>
+            <a href="https://www.facebook.com/choeursdegivors/" target="_blank" rel="noopener">facebook.com/choeursdegivors</a>
+          </li>
+        </ul>
+      </div>
+      <div class="map reveal">
+        <iframe title="Plan d'accès au conservatoire de Givors" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=4.7590%2C45.5800%2C4.7790%2C45.5940&amp;layer=mapnik"></iframe>
+        <a class="map__link" href="https://www.openstreetmap.org/search?query=3%20rue%20Malik%20Oussekine%20Givors" target="_blank" rel="noopener">Ouvrir le plan en grand ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Les Chœurs de Givors · Association loi 1901</p>
+      <p>Avec le soutien du conservatoire de musique et de danse de Givors</p>
+    </div>
+  </footer>
+
+  <!-- Logo réutilisable -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="logo" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="19" fill="currentColor" opacity=".12"/>
+      <path d="M11 27a4 3 0 108 0V11l12-3v15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="27" cy="23" rx="4" ry="3" fill="currentColor"/>
+      <ellipse cx="15" cy="27" rx="4" ry="3" fill="currentColor"/>
+    </symbol>
+  </svg>
+
+  <script src="assets/js/events.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
